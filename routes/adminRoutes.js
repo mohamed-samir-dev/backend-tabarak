@@ -213,7 +213,16 @@ router.put("/company", authMiddleware, async (req, res) => {
   try {
     let company = await Company.findOne();
     if (!company) company = await Company.create({});
-    Object.assign(company, req.body);
+    const body = { ...req.body };
+    if (body.linkType1 !== undefined) {
+      body.link1Type = body.linkType1;
+      delete body.linkType1;
+    }
+    if (body.linkType2 !== undefined) {
+      body.link2Type = body.linkType2;
+      delete body.linkType2;
+    }
+    Object.assign(company, body);
     await company.save();
     res.json(company);
   } catch {
