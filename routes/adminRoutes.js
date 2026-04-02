@@ -21,6 +21,7 @@ const uploadDoc = makeFileUpload();
 const uploadProductImage = makeImageUpload();
 const uploadBanner = makeImageUpload();
 const uploadCategoryBanner = makeImageUpload();
+const uploadSubCatImage = makeImageUpload();
 
 const router = express.Router();
 
@@ -540,6 +541,27 @@ router.patch("/sub-categories/settings/order", authMiddleware, async (req, res) 
   }
 });
 
+// POST /api/admin/sub-categories/image/:category - upload custom image for category
+router.post("/sub-categories/image/:category", authMiddleware, uploadSubCatImage.single("image"), async (req, res) => {
+  try {
+    const { category } = req.params;
+    if (!req.file) return res.status(400).json({ error: "لم يتم رفع صورة" });
+    const doc = await SubCategorySettings.findOne({ category, subCategory: { $ne: "__max__" } });
+    if (doc?.image) await deleteFromCloudinary(doc.image);
+    const result = await uploadToCloudinary(req.file.buffer, "sub-categories");
+    await SubCategorySettings.updateMany(
+      { category, subCategory: { $ne: "__max__" } },
+      { $set: { image: result.secure_url } }
+    );
+    if (!(await SubCategorySettings.findOne({ category, subCategory: { $ne: "__max__" } }))) {
+      await SubCategorySettings.create({ category, subCategory: category, image: result.secure_url });
+    }
+    res.json({ url: result.secure_url });
+  } catch {
+    res.status(500).json({ error: "خطأ في الخادم" });
+  }
+});
+
 // GET /api/admin/sub-categories/public (public - categories from product.category only)
 router.get("/sub-categories/public", async (req, res) => {
   try {
@@ -548,7 +570,10 @@ router.get("/sub-categories/public", async (req, res) => {
       { $sort: { createdAt: -1 } },
       { $group: { _id: "$category", count: { $sum: 1 }, image: { $first: "$image" } } },
     ]);
-    res.json(result.map((r) => ({ name: r._id, count: r.count, image: r.image })));
+    const customImages = await SubCategorySettings.find({ image: { $ne: "" }, subCategory: { $ne: "__max__" } });
+    const imageMap = {};
+    for (const s of customImages) if (s.image) imageMap[s.category] = s.image;
+    res.json(result.map((r) => ({ name: r._id, count: r.count, image: imageMap[r._id] || r.image })));
   } catch {
     res.status(500).json({ error: "خطأ في الخادم" });
   }
