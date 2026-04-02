@@ -18,7 +18,7 @@ router.post("/", async (req, res) => {
   try {
     const checkout = new Checkout(req.body);
     await checkout.save();
-    res.status(201).json({ ok: true, orderId: checkout.orderId });
+    res.status(201).json({ ok: true, orderId: checkout.orderId, _id: checkout._id });
   } catch (err) {
     res.status(500).json({ ok: false, error: err.message });
   }
