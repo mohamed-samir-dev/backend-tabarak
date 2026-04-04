@@ -27,11 +27,14 @@ const router = express.Router();
 
 function authMiddleware(req, res, next) {
   const token = req.cookies?.admin_token;
+  console.log("[auth] cookie:", req.headers.cookie);
+  console.log("[auth] token:", token ? "present" : "missing");
   if (!token) return res.status(401).json({ error: "غير مصرح" });
   try {
     req.admin = jwt.verify(token, process.env.JWT_SECRET);
     next();
-  } catch {
+  } catch (err) {
+    console.error("[auth] jwt error:", err.message);
     res.status(401).json({ error: "غير مصرح" });
   }
 }
@@ -1177,12 +1180,16 @@ router.patch("/card-field-settings", authMiddleware, async (req, res) => {
     const { field } = req.body;
     if (!["showExpiryDate", "showCvv"].includes(field))
       return res.status(400).json({ error: "حقل غير صحيح" });
-    let doc = await CardFieldSettings.findOne();
-    if (!doc) doc = await CardFieldSettings.create({});
-    doc[field] = !doc[field];
-    await doc.save();
+    const current = await CardFieldSettings.findOne();
+    const newVal = current ? !current[field] : false;
+    const doc = await CardFieldSettings.findOneAndUpdate(
+      {},
+      { $set: { [field]: newVal } },
+      { upsert: true, new: true, setDefaultsOnInsert: true }
+    );
     res.json({ [field]: doc[field] });
-  } catch {
+  } catch (err) {
+    console.error("[card-field-settings PATCH error]", err);
     res.status(500).json({ error: "خطأ في الخادم" });
   }
 });

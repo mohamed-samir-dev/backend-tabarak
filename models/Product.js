@@ -50,7 +50,7 @@ const productSchema = new mongoose.Schema(
 );
 
 productSchema.virtual("discountPercent").get(function () {
-  if (this.salePrice && this.originalPrice > this.salePrice) {
+  if (this.salePrice != null && this.salePrice !== this.originalPrice) {
     return Math.round(((this.originalPrice - this.salePrice) / this.originalPrice) * 100);
   }
   return 0;
