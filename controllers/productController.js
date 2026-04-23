@@ -13,10 +13,10 @@ exports.getProducts = async (req, res) => {
   const { q, brand } = req.query;
   const query = {};
   if (brand) query.brand = { $regex: new RegExp(`^${brand}$`, "i") };
-  if (!q) return res.json(await Product.find(query));
+  if (!q) return res.json(await Product.find(query).sort({ createdAt: 1 }));
 
   const normalized = normalizeArabic(q);
-  const products = await Product.find(query);
+  const products = await Product.find(query).sort({ createdAt: 1 });
   const filtered = products.filter((p) =>
     normalizeArabic(p.name).includes(normalized)
   );
