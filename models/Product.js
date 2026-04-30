@@ -13,6 +13,7 @@ const productSchema = new mongoose.Schema(
     network: { type: String },
     screenSize: { type: String },
     overview: { type: String },
+    overviewImage: { type: String },
     features: {
       screenAndDesign: [String],
       performance: [String],

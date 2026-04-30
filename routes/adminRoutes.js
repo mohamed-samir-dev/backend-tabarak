@@ -756,7 +756,7 @@ router.post("/products", authMiddleware, uploadProductImage.single("image"), asy
     const body = req.body;
     const productData = {};
 
-    const fields = ["name", "category", "subCategory", "brand", "color", "storage", "network", "screenSize", "description", "deliveryTime"];
+    const fields = ["name", "category", "subCategory", "brand", "color", "storage", "network", "screenSize", "description", "deliveryTime", "overviewImage"];
     fields.forEach((f) => { if (body[f]) productData[f] = body[f]; });
 
     const numFields = ["originalPrice", "salePrice", "warrantyYears"];
@@ -835,7 +835,7 @@ router.put("/products/:id", authMiddleware, uploadProductImage.single("image"), 
     if (!product) return res.status(404).json({ error: "المنتج غير موجود" });
 
     const body = req.body;
-    const fields = ["name", "category", "subCategory", "brand", "color", "storage", "network", "screenSize", "description", "deliveryTime"];
+    const fields = ["name", "category", "subCategory", "brand", "color", "storage", "network", "screenSize", "description", "deliveryTime", "overviewImage"];
     fields.forEach((f) => { if (body[f] !== undefined) product[f] = body[f]; });
 
     const numFields = ["originalPrice", "salePrice", "warrantyYears"];
