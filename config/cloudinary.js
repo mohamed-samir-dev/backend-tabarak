@@ -42,4 +42,18 @@ async function deleteFromCloudinary(url, resource_type = "image") {
   }
 }
 
-module.exports = { cloudinary, makeImageUpload, makeFileUpload, uploadToCloudinary, deleteFromCloudinary };
+function signCloudinaryUrl(url) {
+  if (!url || !url.includes("cloudinary.com")) return url;
+  try {
+    const parts = url.split("/");
+    const uploadIndex = parts.indexOf("upload");
+    let pathParts = parts.slice(uploadIndex + 1);
+    if (/^v\d+$/.test(pathParts[0])) pathParts = pathParts.slice(1);
+    const publicId = pathParts.join("/").replace(/\.[^/.]+$/, "");
+    return cloudinary.url(publicId, { sign_url: true, type: "authenticated" });
+  } catch {
+    return url;
+  }
+}
+
+module.exports = { cloudinary, makeImageUpload, makeFileUpload, uploadToCloudinary, deleteFromCloudinary, signCloudinaryUrl };

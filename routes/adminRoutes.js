@@ -751,7 +751,8 @@ router.delete("/reviews/:id", authMiddleware, async (req, res) => {
 });
 
 // POST /api/admin/products
-router.post("/products", authMiddleware, uploadProductImage.single("image"), async (req, res) => {
+const uploadProductFields = makeImageUpload();
+router.post("/products", authMiddleware, uploadProductFields.fields([{ name: "image", maxCount: 1 }, { name: "galleryFiles", maxCount: 20 }]), async (req, res) => {
   try {
     const body = req.body;
     const productData = {};
@@ -783,10 +784,26 @@ router.post("/products", authMiddleware, uploadProductImage.single("image"), asy
       try { productData.colors = JSON.parse(body.colors); } catch { /* ignore */ }
     }
 
-    if (req.file) {
-      const result = await uploadToCloudinary(req.file.buffer, "products");
+    // Main image: file upload or URL
+    if (req.files?.image?.[0]) {
+      const result = await uploadToCloudinary(req.files.image[0].buffer, "products");
       productData.image = result.secure_url;
+    } else if (body.imageUrl) {
+      productData.image = body.imageUrl;
     }
+
+    // Gallery images: URLs + uploaded files
+    const galleryUrls = [];
+    if (body.galleryUrls) {
+      try { galleryUrls.push(...JSON.parse(body.galleryUrls)); } catch { /* ignore */ }
+    }
+    if (req.files?.galleryFiles) {
+      for (const file of req.files.galleryFiles) {
+        const result = await uploadToCloudinary(file.buffer, "products");
+        galleryUrls.push(result.secure_url);
+      }
+    }
+    if (galleryUrls.length) productData.images = galleryUrls;
 
     const product = await Product.create(productData);
     res.status(201).json(product);
@@ -829,7 +846,8 @@ router.delete("/products/:id", authMiddleware, async (req, res) => {
 });
 
 // PUT /api/admin/products/:id  (with optional image upload)
-router.put("/products/:id", authMiddleware, uploadProductImage.single("image"), async (req, res) => {
+const uploadProductFieldsEdit = makeImageUpload();
+router.put("/products/:id", authMiddleware, uploadProductFieldsEdit.fields([{ name: "image", maxCount: 1 }, { name: "galleryFiles", maxCount: 20 }]), async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);
     if (!product) return res.status(404).json({ error: "المنتج غير موجود" });
@@ -866,10 +884,28 @@ router.put("/products/:id", authMiddleware, uploadProductImage.single("image"), 
       try { product.colors = JSON.parse(body.colors); } catch { /* ignore */ }
     }
 
-    if (req.file) {
+    // Main image: file upload or URL
+    if (req.files?.image?.[0]) {
       await deleteFromCloudinary(product.image);
-      const result = await uploadToCloudinary(req.file.buffer, "products");
+      const result = await uploadToCloudinary(req.files.image[0].buffer, "products");
       product.image = result.secure_url;
+    } else if (body.imageUrl !== undefined) {
+      product.image = body.imageUrl;
+    }
+
+    // Gallery images: URLs + uploaded files
+    const galleryUrls = [];
+    if (body.galleryUrls) {
+      try { galleryUrls.push(...JSON.parse(body.galleryUrls)); } catch { /* ignore */ }
+    }
+    if (req.files?.galleryFiles) {
+      for (const file of req.files.galleryFiles) {
+        const result = await uploadToCloudinary(file.buffer, "products");
+        galleryUrls.push(result.secure_url);
+      }
+    }
+    if (body.galleryUrls !== undefined || req.files?.galleryFiles) {
+      product.images = galleryUrls;
     }
 
     await product.save();
