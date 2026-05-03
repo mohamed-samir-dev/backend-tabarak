@@ -21,7 +21,6 @@ const checkoutLimiter = rateLimit({
   standardHeaders: true,
   legacyHeaders: false,
   message: { ok: false, error: "عذراً، تم تقديم عدة طلبات متتالية. يرجى الانتظار قليلاً قبل المحاولة مرة أخرى" },
-  keyGenerator: (req) => req.ip || req.headers["x-forwarded-for"] || "unknown",
 });
 
 router.post("/", checkoutLimiter, async (req, res) => {

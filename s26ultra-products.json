@@ -1,137 +1,627 @@
+
+
 [
-  {
-    "_id": "69ea542847825c3bcd5b7900",
-    "name": "سامسونج جالاكسي، S26، ألترا، أسود، 1 تيرا",
-    "originalPrice": 8000,
-    "salePrice": 6700,
-    "color": "أسود",
-    "storage": "1TB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294370/products/qnehee4adtspmhe1rwcd.webp"
-  },
-  {
-    "_id": "69ea542847825c3bcd5b7901",
-    "name": "سامسونج جالاكسي، S26، ألترا، أبيض، 256 جيجا",
-    "originalPrice": 6000,
+
+{
+  name: "سامسونج جالاكسي S26+، 5G، 6.7 بوصة، أسود، 256 جيجابايت",
+ "originalPrice": 6000,
     "salePrice": 5500,
-    "color": "أبيض",
-    "storage": "265 GB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294502/products/zioyjy8omu2jb3clb83m.webp"
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7383_1_zgwsaw.webp",
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7383_1_zgwsaw.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658043/Samsung-Galaxy-S26-Plus-black-5G-1_bdapb3.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658544/Samsung-Galaxy-S26-Plus-black-5G-2_mk9hkd.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658540/Samsung-Galaxy-S26-Plus-black-5G-6_wntgxq.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658543/Samsung-Galaxy-S26-Plus-black-5G-5_jphvju.webp",
+  ],
+    overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658651/ChatGPT_Image_May_1_2026_07_57_53_PM_v0sx6d.webp",
+
+  color: "أسود",
+  storage: "256 جيجابايت",
+  network: "5G",
+  screenSize: "6.7 بوصة",
+
+  overview: "هاتف Galaxy S26+ يقدم تصميم فاخر مع أداء قوي مدعوم بمعالج Exynos 2600، إلى جانب مزايا Galaxy AI الذكية.\nيأتي بشاشة Dynamic AMOLED 2X بدقة QHD+ مع معدل تحديث 120Hz لتجربة مشاهدة سلسة.\nنظام الكاميرا المتطور يضم عدسة رئيسية 50 ميجابكسل مع زوم بصري حتى 3x.\nبطارية قوية بسعة 4900 مللي أمبير تدعم الاستخدام طوال اليوم.",
+
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+ (1440×3120)",
+      "معدل تحديث 120Hz",
+      "سطوع يصل إلى 2600 nits",
+      "إطار Armor Aluminum",
+      "زجاج Gorilla Glass Victus 2"
+    ],
+    performance: [
+      "معالج Exynos 2600",
+      "أداء قوي للألعاب والتطبيقات",
+      "دعم Galaxy AI"
+    ],
+    battery: [
+      "بطارية 4900 مللي أمبير",
+      "تشغيل فيديو حتى 31 ساعة"
+    ],
+    frontCamera: [
+      "كاميرا أمامية 12 ميجابكسل",
+      "تصوير سيلفي عالي الجودة"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 50 ميجابكسل",
+      "كاميرا واسعة 12 ميجابكسل",
+      "كاميرا زوم 10 ميجابكسل",
+      "زوم بصري 3x",
+      "زوم رقمي حتى 30x"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو عالي الجودة",
+      "تحسين الصور بالذكاء الاصطناعي",
+      "وضع بورتريه احترافي"
+    ]
   },
-  {
-    "_id": "69ea542847825c3bcd5b790b",
-    "name": "سامسونج جالاكسي، S26، ألترا، بنفسجي، 256 جيجا",
-    "originalPrice": 6000,
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "256 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أسود",
+    os: "Android",
+    processorName: "Samsung Exynos",
+    mainCameraFeature: "ثلاثية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26+",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "4900 mAh",
+    screenSize: "6.7 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "عشري النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Exynos 2600",
+    modelNumber: "SM-S947BZKIMEA",
+    mainCamera: "50 + 12 + 10 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: false, conditions: [] },
+  taxIncluded: true,
+    "category":"سامسونج جالاكسي S26",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+  inStock: true
+}]
+
+
+
+
+
+
+{
+  name: "سامسونج جالاكسي S26+، 5G، 6.7 بوصة، بنفسجي غامق، 256 جيجابايت",
+ "originalPrice": 6000,
     "salePrice": 5500,
-    "color": "بنفسجي",
-    "storage": "265 GB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294580/products/xwhg45clz82e9vjuwent.webp"
+   image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7385_1_phubj2.webp",
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7385_1_phubj2.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658506/Samsung-Galaxy-S26-Plus-violet-5G-7_iwgbjg.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658509/Samsung-Galaxy-S26-Plus-violet-5G-6_h4kslo.webp",
+
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658513/Samsung-Galaxy-S26-Plus-violet-5G-3_ykx8cu.webp",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658513/Samsung-Galaxy-S26-Plus-violet-5G-1_yjmvti.webp", 
+ 
+  ],
+
+    overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658652/ChatGPT_Image_May_1_2026_07_50_48_PM_agqbso.webp",
+
+  color: "بنفسجي غامق",
+  storage: "256 جيجابايت",
+  network: "5G",
+  screenSize: "6.7 بوصة",
+
+  overview: "هاتف Galaxy S26+ يقدم تصميم فاخر مع أداء قوي مدعوم بمعالج Exynos 2600، إلى جانب مزايا Galaxy AI الذكية.\nيأتي بشاشة Dynamic AMOLED 2X بدقة QHD+ مع معدل تحديث 120Hz لتجربة مشاهدة سلسة.\nنظام الكاميرا المتطور يضم عدسة رئيسية 50 ميجابكسل مع زوم بصري حتى 3x.\nبطارية قوية بسعة 4900 مللي أمبير تدعم الاستخدام طوال اليوم.",
+
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+ (1440×3120)",
+      "معدل تحديث 120Hz",
+      "سطوع يصل إلى 2600 nits",
+      "إطار Armor Aluminum",
+      "زجاج Gorilla Glass Victus 2"
+    ],
+    performance: [
+      "معالج Exynos 2600",
+      "أداء قوي للألعاب والتطبيقات",
+      "دعم Galaxy AI"
+    ],
+    battery: [
+      "بطارية 4900 مللي أمبير",
+      "تشغيل فيديو حتى 31 ساعة"
+    ],
+    frontCamera: [
+      "كاميرا أمامية 12 ميجابكسل",
+      "تصوير سيلفي عالي الجودة"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 50 ميجابكسل",
+      "كاميرا واسعة 12 ميجابكسل",
+      "كاميرا زوم 10 ميجابكسل",
+      "زوم بصري 3x",
+      "زوم رقمي حتى 30x"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو عالي الجودة",
+      "تحسين الصور بالذكاء الاصطناعي",
+      "وضع بورتريه احترافي"
+    ]
   },
-  {
-    "_id": "69ea542847825c3bcd5b790c",
-    "name": "سامسونج جالاكسي، S26، ألترا، أسود، 256 جيجا",
-    "originalPrice": 6000,
-    "salePrice": 5500,
-    "color": "أسود",
-    "storage": "265 GB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294406/products/mqujhi7unojls01oqele.webp"
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "256 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "بنفسجي غامق",
+    os: "Android",
+    processorName: "Samsung Exynos",
+    mainCameraFeature: "ثلاثية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26+",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "4900 mAh",
+    screenSize: "6.7 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "عشري النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Exynos 2600",
+    modelNumber: "SM-S947BZKIMEA",
+    mainCamera: "50 + 12 + 10 ميجابكسل"
   },
-  {
-    "_id": "69ea542847825c3bcd5b7911",
-    "name": "سامسونج جالاكسي، S26، ألترا، بنفسجي، 512 جيجا",
-    "originalPrice": 6300,
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: false, conditions: [] },
+  taxIncluded: true,
+  category: "سامسونج جالاكسي S26 بلس",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+  inStock: true
+}
+
+
+
+
+
+
+{
+  name: "سامسونج جالاكسي S26+، 5G، 6.7 بوصة، أبيض، 256 جيجابايت",
+ "originalPrice": 6000,
+  "salePrice": 5500,
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7382_1_oewnaa.webp",
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7382_1_oewnaa.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658042/Samsung-Galaxy-S26-Plus-white-5G-6_xziafu.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658504/Samsung-Galaxy-S26-Plus-white-5G-2_lqfntn.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658505/Samsung-Galaxy-S26-Plus-white-5G-1_vfjbh4.webp"
+  ],
+    overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658653/ChatGPT_Image_May_1_2026_07_50_55_PM_iq0mbg.webp",
+
+  color: "أبيض",
+  storage: "256 جيجابايت",
+  network: "5G",
+  screenSize: "6.7 بوصة",
+
+  overview: "هاتف Galaxy S26+ يقدم تصميم فاخر مع أداء قوي مدعوم بمعالج Exynos 2600، إلى جانب مزايا Galaxy AI الذكية.\nيأتي بشاشة Dynamic AMOLED 2X بدقة QHD+ مع معدل تحديث 120Hz لتجربة مشاهدة سلسة.\nنظام الكاميرا المتطور يضم عدسة رئيسية 50 ميجابكسل مع زوم بصري حتى 3x.\nبطارية قوية بسعة 4900 مللي أمبير تدعم الاستخدام طوال اليوم.",
+
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+ (1440×3120)",
+      "معدل تحديث 120Hz",
+      "سطوع يصل إلى 2600 nits",
+      "إطار Armor Aluminum",
+      "زجاج Gorilla Glass Victus 2"
+    ],
+    performance: [
+      "معالج Exynos 2600",
+      "أداء قوي للألعاب والتطبيقات",
+      "دعم Galaxy AI"
+    ],
+    battery: [
+      "بطارية 4900 مللي أمبير",
+      "تشغيل فيديو حتى 31 ساعة"
+    ],
+    frontCamera: [
+      "كاميرا أمامية 12 ميجابكسل",
+      "تصوير سيلفي عالي الجودة"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 50 ميجابكسل",
+      "كاميرا واسعة 12 ميجابكسل",
+      "كاميرا زوم 10 ميجابكسل",
+      "زوم بصري 3x",
+      "زوم رقمي حتى 30x"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو عالي الجودة",
+      "تحسين الصور بالذكاء الاصطناعي",
+      "وضع بورتريه احترافي"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "256 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أبيض",
+    os: "Android",
+    processorName: "Samsung Exynos",
+    mainCameraFeature: "ثلاثية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26+",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "4900 mAh",
+    screenSize: "6.7 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "عشري النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Exynos 2600",
+    modelNumber: "SM-S947BZKIMEA",
+    mainCamera: "50 + 12 + 10 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: false, conditions: [] },
+  taxIncluded: true,
+  "category":"سامسونج جالاكسي S26",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+  inStock: true
+}
+
+
+
+
+
+{
+  name: "سامسونج جالاكسي S26+، 5G، 6.7 بوصة، أسود، 512 جيجابايت",
+"originalPrice": 6300,
     "salePrice": 5900,
-    "color": "بنفسجي",
-    "storage": "512 GB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294560/products/w690fe4ynfx9gc6i8exg.webp"
+   image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7383_1_zgwsaw.webp",
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7383_1_zgwsaw.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658043/Samsung-Galaxy-S26-Plus-black-5G-1_bdapb3.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658544/Samsung-Galaxy-S26-Plus-black-5G-2_mk9hkd.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658540/Samsung-Galaxy-S26-Plus-black-5G-6_wntgxq.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658543/Samsung-Galaxy-S26-Plus-black-5G-5_jphvju.webp",
+  ],
+    overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658651/ChatGPT_Image_May_1_2026_07_57_53_PM_v0sx6d.webp",
+
+  color: "أسود",
+  storage: "512 جيجابايت",
+  network: "5G",
+  screenSize: "6.7 بوصة",
+
+  overview: "هاتف Galaxy S26+ يقدم تجربة رائدة بتصميم فاخر وأداء قوي جدًا، مدعوم بمعالج Snapdragon 8 Elite Gen 5.\nيأتي بشاشة Dynamic AMOLED 2X بدقة QHD+ وسطوع عالي يصل إلى 2600 شمعة مع معدل تحديث 120Hz.\nنظام الكاميرا المتطور بدقة 50 ميجابكسل يقدم صور احترافية مع زوم بصري 3x.\nبطارية قوية بسعة 4900 مللي أمبير تدعم الشحن السريع وتدوم طوال اليوم مع استخدام مكثف.",
+
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+ (1440×3120)",
+      "معدل تحديث 120Hz",
+      "سطوع يصل إلى 2600 nits",
+      "تصميم نحيف فاخر",
+      "زجاج Gorilla Glass Victus 2",
+      "مقاومة ماء وغبار IP68"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي جدًا للألعاب",
+      "دعم Galaxy AI",
+      "ذاكرة RAM 12 جيجابايت"
+    ],
+    battery: [
+      "بطارية 4900 مللي أمبير",
+      "تشغيل فيديو حتى 31 ساعة",
+      "شحن سريع حتى 45W"
+    ],
+    frontCamera: [
+      "كاميرا أمامية 12 ميجابكسل",
+      "تصوير سيلفي وفيديو عالي الجودة"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 50 ميجابكسل",
+      "كاميرا واسعة 12 ميجابكسل",
+      "كاميرا زوم 10 ميجابكسل",
+      "زوم بصري 3x",
+      "زوم رقمي حتى 30x"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو 4K",
+      "تحسين الصور بالذكاء الاصطناعي",
+      "وضع بورتريه احترافي",
+      "Night Mode محسّن"
+    ]
   },
-  {
-    "_id": "69ea542847825c3bcd5b7912",
-    "name": "سامسونج جالاكسي، S26، ألترا، بنفسجي، 1 تيرا",
-    "originalPrice": 8000,
-    "salePrice": 6700,
-    "color": "بنفسجي",
-    "storage": "1 TB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294600/products/avdeckgerpwjyi5zq2uc.webp"
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "512 جيجابايت",
+    edition: "نسخة عالمية (Unlocked)",
+    colorName: "أسود",
+    os: "Android 16 (One UI 8.5)",
+    processorName: "Qualcomm Snapdragon",
+    mainCameraFeature: "ثلاثية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم (45W)",
+    modelName: "Galaxy S26+",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "4900 mAh",
+    screenSize: "6.7 بوصة",
+    simType: "Nano SIM + eSIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S947U",
+    mainCamera: "50 + 12 + 10 ميجابكسل"
   },
-  {
-    "_id": "69ea542847825c3bcd5b7913",
-    "name": "سامسونج جالاكسي، S26، ألترا، أبيض، 512 جيجا",
-    "originalPrice": 6300,
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["تقسيط شهري بدون فوائد حسب البنك"] },
+  taxIncluded: true,
+    "category":"سامسونج جالاكسي S26",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+  inStock: true
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  name: "سامسونج جالاكسي S26+، 5G، 6.7 بوصة، أبيض، 512 جيجابايت",
+"originalPrice": 6300,
     "salePrice": 5900,
-    "color": "أبيض",
-    "storage": "512 GB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294516/products/xxjshqrhpjr36ybscv3r.webp"
+    image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7382_1_oewnaa.webp",
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7382_1_oewnaa.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658042/Samsung-Galaxy-S26-Plus-white-5G-6_xziafu.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658504/Samsung-Galaxy-S26-Plus-white-5G-2_lqfntn.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658505/Samsung-Galaxy-S26-Plus-white-5G-1_vfjbh4.webp"
+  ],
+    overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658653/ChatGPT_Image_May_1_2026_07_50_55_PM_iq0mbg.webp",
+
+  color: "أبيض",
+  storage: "512 جيجابايت",
+  network: "5G",
+  screenSize: "6.7 بوصة",
+
+  overview: "هاتف Galaxy S26+ يقدم تجربة رائدة بتصميم فاخر وأداء قوي جدًا، مدعوم بمعالج Snapdragon 8 Elite Gen 5.\nيأتي بشاشة Dynamic AMOLED 2X بدقة QHD+ وسطوع عالي يصل إلى 2600 شمعة مع معدل تحديث 120Hz.\nنظام الكاميرا المتطور بدقة 50 ميجابكسل يقدم صور احترافية مع زوم بصري 3x.\nبطارية قوية بسعة 4900 مللي أمبير تدعم الشحن السريع وتدوم طوال اليوم مع استخدام مكثف.",
+
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+ (1440×3120)",
+      "معدل تحديث 120Hz",
+      "سطوع يصل إلى 2600 nits",
+      "تصميم نحيف فاخر",
+      "زجاج Gorilla Glass Victus 2",
+      "مقاومة ماء وغبار IP68"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي جدًا للألعاب",
+      "دعم Galaxy AI",
+      "ذاكرة RAM 12 جيجابايت"
+    ],
+    battery: [
+      "بطارية 4900 مللي أمبير",
+      "تشغيل فيديو حتى 31 ساعة",
+      "شحن سريع حتى 45W"
+    ],
+    frontCamera: [
+      "كاميرا أمامية 12 ميجابكسل",
+      "تصوير سيلفي وفيديو عالي الجودة"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 50 ميجابكسل",
+      "كاميرا واسعة 12 ميجابكسل",
+      "كاميرا زوم 10 ميجابكسل",
+      "زوم بصري 3x",
+      "زوم رقمي حتى 30x"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو 4K",
+      "تحسين الصور بالذكاء الاصطناعي",
+      "وضع بورتريه احترافي",
+      "Night Mode محسّن"
+    ]
   },
-  {
-    "_id": "69ea542847825c3bcd5b791b",
-    "name": "سامسونج جالاكسي، S26، ألترا، أبيض، 1 تيرا",
-    "originalPrice": 8000,
-    "salePrice": 6700,
-    "color": "أبيض",
-    "storage": "1 TB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294538/products/fsokbkq9gnwdofepiczl.webp"
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "512 جيجابايت",
+    edition: "نسخة عالمية (Unlocked)",
+    colorName: "أبيض",
+    os: "Android 16 (One UI 8.5)",
+    processorName: "Qualcomm Snapdragon",
+    mainCameraFeature: "ثلاثية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم (45W)",
+    modelName: "Galaxy S26+",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "4900 mAh",
+    screenSize: "6.7 بوصة",
+    simType: "Nano SIM + eSIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S947U",
+    mainCamera: "50 + 12 + 10 ميجابكسل"
   },
-  {
-    "_id": "69ea542847825c3bcd5b791c",
-    "name": "سامسونج جالاكسي، S26، ألترا، أسود، 512 جيجا",
-    "originalPrice": 6300,
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["تقسيط شهري بدون فوائد حسب البنك"] },
+  taxIncluded: true,
+    "category":"سامسونج جالاكسي S26",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+  inStock: true
+}
+
+{
+  name: "سامسونج جالاكسي S26+، 5G، 6.7 بوصة، بنفسجي غامق، 512 جيجابايت",
+   "originalPrice": 6300,
     "salePrice": 5900,
-    "color": "أسود",
-    "storage": "512 GB",
-    "network": "5G",
-    "screenSize": "6.5 بوصة",
-    "category": "سامسونج جالاكسي S26",
-    "subCategory": "الهواتف الذكية",
-    "brand": "Samsung",
-    "inStock": true,
-    "image": "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776294419/products/uvylsbj4kmwud3w4k0vi.webp"
-  }
-]
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7385_1_phubj2.webp",
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658037/Samsung-Galaxy-S26-Dual-SIM-256GB-12GB-RAM-5G-_7385_1_phubj2.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658506/Samsung-Galaxy-S26-Plus-violet-5G-7_iwgbjg.webp",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658509/Samsung-Galaxy-S26-Plus-violet-5G-6_h4kslo.webp",
+
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658513/Samsung-Galaxy-S26-Plus-violet-5G-3_ykx8cu.webp",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658513/Samsung-Galaxy-S26-Plus-violet-5G-1_yjmvti.webp", 
+ 
+  ],
+
+    overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777658652/ChatGPT_Image_May_1_2026_07_50_48_PM_agqbso.webp",
+
+  color: "بنفسجي غامق",
+  storage: "512 جيجابايت",
+  network: "5G",
+  screenSize: "6.7 بوصة",
+
+  overview: "هاتف Galaxy S26+ يقدم تجربة رائدة بتصميم فاخر وأداء قوي جدًا، مدعوم بمعالج Snapdragon 8 Elite Gen 5.\nيأتي بشاشة Dynamic AMOLED 2X بدقة QHD+ وسطوع عالي يصل إلى 2600 شمعة مع معدل تحديث 120Hz.\nنظام الكاميرا المتطور بدقة 50 ميجابكسل يقدم صور احترافية مع زوم بصري 3x.\nبطارية قوية بسعة 4900 مللي أمبير تدعم الشحن السريع وتدوم طوال اليوم مع استخدام مكثف.",
+
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+ (1440×3120)",
+      "معدل تحديث 120Hz",
+      "سطوع يصل إلى 2600 nits",
+      "تصميم نحيف فاخر",
+      "زجاج Gorilla Glass Victus 2",
+      "مقاومة ماء وغبار IP68"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي جدًا للألعاب",
+      "دعم Galaxy AI",
+      "ذاكرة RAM 12 جيجابايت"
+    ],
+    battery: [
+      "بطارية 4900 مللي أمبير",
+      "تشغيل فيديو حتى 31 ساعة",
+      "شحن سريع حتى 45W"
+    ],
+    frontCamera: [
+      "كاميرا أمامية 12 ميجابكسل",
+      "تصوير سيلفي وفيديو عالي الجودة"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 50 ميجابكسل",
+      "كاميرا واسعة 12 ميجابكسل",
+      "كاميرا زوم 10 ميجابكسل",
+      "زوم بصري 3x",
+      "زوم رقمي حتى 30x"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو 4K",
+      "تحسين الصور بالذكاء الاصطناعي",
+      "وضع بورتريه احترافي",
+      "Night Mode محسّن"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "512 جيجابايت",
+    edition: "نسخة عالمية (Unlocked)",
+    colorName: "بنفسجي غامق",
+    os: "Android 16 (One UI 8.5)",
+    processorName: "Qualcomm Snapdragon",
+    mainCameraFeature: "ثلاثية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم (45W)",
+    modelName: "Galaxy S26+",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "4900 mAh",
+    screenSize: "6.7 بوصة",
+    simType: "Nano SIM + eSIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S947U",
+    mainCamera: "50 + 12 + 10 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["تقسيط شهري بدون فوائد حسب البنك"] },
+  taxIncluded: true,
+    "category":"سامسونج جالاكسي S26",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+  inStock: true
+}

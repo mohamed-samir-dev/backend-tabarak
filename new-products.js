@@ -1,375 +1,889 @@
 module.exports = [
-
-
-  {
-    name: "أبل آيفون 17 اير، 5G، 6.1 بوصة، جولد، 256 جيجا",
-    originalPrice: 4120,
-    salePrice: 4500,
-    image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813049/4d6b5093-1608-46d7-9b7d-e4ab5ff5a85e_kdfzok.avif",
-    images: [
-      "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813049/4d6b5093-1608-46d7-9b7d-e4ab5ff5a85e_kdfzok.avif",
-      "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813050/9e3f547f-664e-4de3-8cfc-86245a3fad16_bd1fpi.avif",
-      "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813051/50db7572-52d0-4488-bbc1-f3954b337639_arecwl.avif",
-      "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813049/2555849e-549e-4cc4-8cbc-865973c260cb_niwgzf.avif",
-    ],
-    color: "جولد",
-    storage: "256 GB",
-    network: "5G",
-    screenSize: "6.5 بوصة",
-    category: "ابل ايفون 17 اير",
-    subCategory: "الهواتف الذكية",
-    brand: "Apple",
-    inStock: true,
-    freeDelivery: true,
-    deliveryTime: "24 ساعة",
-    warrantyYears: 2,
-    taxIncluded: true,
-
-    overview: `آيفون إير هو أنحف آيفون على الإطلاق، مدعوم بشريحة A19 Pro. إنه أكثر متانة من أي آيفون سابق، مع إطار من التيتانيوم المصقول، وواجهة أمامية من سيراميك شيلد 2 مقاومة للخدوش بشكل أفضل بمعدل 3 مرات، وواجهة خلفية من سيراميك شيلد مقاومة للتصدع بمعدل 4 مرات. صور سيلفي جماعية أكثر ذكاءً وفيديو مزدوج الالتقاط مع الكاميرا الأمامية الجديدة Center Stage. الكاميرا الرئيسية Fusion بدقة 48 ميجابكسل مع عدسة تليفوتو 2x تدعم أحدث الميزات المتقدمة مثل الصور الشخصية من الجيل التالي والمزيد. شاشة Super Retina XDR بحجم 6.5 بوصة مع ProMotion تصل إلى 120 هرتز. عمر بطارية طوال اليوم. أدوات ذكاء آبل المفيدة مثل Clean Up والمزيد.`,
-overviewImage:"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777599688/ChatGPT_Image_May_1_2026_04_38_53_AM_d0nl3e.webp",
-
-    features: {
-      screenAndDesign: [
-        "شاشة Super Retina XDR",
-        "تقنية ProMotion",
-        "شاشة التشغيل الدائم",
-        "الجزيرة الديناميكية",
-        "إطار من التيتانيوم",
-        "زر الإجراءات",
-        "التحكم بالكاميرا",
-      ],
-      performance: [
-        "شريحة A19 Pro",
-        "وحدة معالجة رسومات 5 أنوية",
-        "مسرّعات عصبية",
-        "تتبع الأشعة المسرّع بالعتاد",
-      ],
-      battery: ["تشغيل فيديو حتى 27 ساعة"],
-      frontCamera: [
-        "كاميرا أمامية Center Stage بدقة 18 ميجابكسل",
-        "انقر للتكبير والتدوير",
-        "فيديو فائق الثبات",
-        "التقاط مزدوج",
-      ],
-      rearCamera: [
-        "كاميرا رئيسية Fusion بدقة 48 ميجابكسل",
-        "صور فائقة الدقة (24 و 48 ميجابكسل)",
-        "بورتريه الجيل التالي مع التحكم بالعمق",
-      ],
-      videoAndPhotography: [
-        "Dolby Vision 4K بمعدل 60 إطار/ثانية",
-        "أحدث أنماط التصوير الفوتوغرافي",
-      ],
-    },
-
-    detailedSpecs: {
-      memoryType: "بدون ذاكرة قابلة للزيادة",
-      simCount: "مزدوج الشريحة",
-      ram: "12 GB",
-      internalStorage: "256 GB",
-      edition: "نسخة الشرق الأوسط (eSIM)",
-      colorName: "Gold",
-      os: "iOS",
-      processorName: "أبل",
-      mainCameraFeature: "فردي",
-      audioJack: "نوع C",
-      voiceDialing: "Yes",
-      fastCharging: "Yes",
-      modelName: "iPhone Air",
-      secondaryCameraResolution: "18 MP",
-      secondaryCameraRange: "16 - 31.9 ميجابكسل",
-      batterySize: "3149 mAh",
-      screenSize: "6.5 in",
-      simType: "شريحة إلكترونية",
-      chargingType: "نوع C",
-      condition: "جديد",
-      coreCount: "سداسي النواة",
-      flash: "فلاش مزدوج",
-      networkType: "5G",
-      processorNumber: "Apple A19 Pro",
-      modelNumber: "MG184AH/A",
-      mainCamera: "12+12 MP",
-    },
-  },
-
-  {
-    name: "أبل آيفون 17 اير، 5G، 6.1 بوصة، أسود، 256 جيجا",
-    originalPrice: 4120,
-    salePrice: 4500,
-    image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813333/178827d4-e605-4c7d-a738-52347f01a480_bqjmeu.avif",
-    images: [
-      "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813333/178827d4-e605-4c7d-a738-52347f01a480_bqjmeu.avif",
- "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813337/652a8e81-f403-4dfc-951d-bfeb83d332b0_hgfoox.avif",
- "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813334/ee73f778-81f6-42a5-a32f-144eb70adf2f_dkp7bg.avif",
- "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813335/a74cf9cf-7892-4989-b84a-e991e83508cd_t7ksrv.avif",
-    ],
-    color: "أسود",
-    storage: "256 GB",
-    network: "5G",
-    screenSize: "6.5 بوصة",
-    category: "ابل ايفون 17 اير",
-    subCategory: "الهواتف الذكية",
-    brand: "Apple",
-    inStock: true,
-    freeDelivery: true,
-    deliveryTime: "24 ساعة",
-    warrantyYears: 2,
-    taxIncluded: true,
-
-    overview: `آيفون إير هو أنحف آيفون على الإطلاق، مدعوم بشريحة A19 Pro. إنه أكثر متانة من أي آيفون سابق، مع إطار من التيتانيوم المصقول، وواجهة أمامية من سيراميك شيلد 2 مقاومة للخدوش بشكل أفضل بمعدل 3 مرات، وواجهة خلفية من سيراميك شيلد مقاومة للتصدع بمعدل 4 مرات. صور سيلفي جماعية أكثر ذكاءً وفيديو مزدوج الالتقاط مع الكاميرا الأمامية الجديدة Center Stage. الكاميرا الرئيسية Fusion بدقة 48 ميجابكسل مع عدسة تليفوتو 2x تدعم أحدث الميزات المتقدمة مثل الصور الشخصية من الجيل التالي والمزيد. شاشة Super Retina XDR بحجم 6.5 بوصة مع ProMotion تصل إلى 120 هرتز. عمر بطارية طوال اليوم. أدوات ذكاء آبل المفيدة مثل Clean Up والمزيد.`,
-overviewImage:"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777599688/ChatGPT_Image_May_1_2026_04_37_55_AM_zmti5z.webp",
-
-    features: {
-      screenAndDesign: [
-        "شاشة Super Retina XDR",
-        "تقنية ProMotion",
-        "شاشة التشغيل الدائم",
-        "الجزيرة الديناميكية",
-        "إطار من التيتانيوم",
-        "زر الإجراءات",
-        "التحكم بالكاميرا",
-      ],
-      performance: [
-        "شريحة A19 Pro",
-        "وحدة معالجة رسومات 5 أنوية",
-        "مسرّعات عصبية",
-        "تتبع الأشعة المسرّع بالعتاد",
-      ],
-      battery: ["تشغيل فيديو حتى 27 ساعة"],
-      frontCamera: [
-        "كاميرا أمامية Center Stage بدقة 18 ميجابكسل",
-        "انقر للتكبير والتدوير",
-        "فيديو فائق الثبات",
-        "التقاط مزدوج",
-      ],
-      rearCamera: [
-        "كاميرا رئيسية Fusion بدقة 48 ميجابكسل",
-        "صور فائقة الدقة (24 و 48 ميجابكسل)",
-        "بورتريه الجيل التالي مع التحكم بالعمق",
-      ],
-      videoAndPhotography: [
-        "Dolby Vision 4K بمعدل 60 إطار/ثانية",
-        "أحدث أنماط التصوير الفوتوغرافي",
-      ],
-    },
-
-    detailedSpecs: {
-      memoryType: "بدون ذاكرة قابلة للزيادة",
-      simCount: "مزدوج الشريحة",
-      ram: "12 GB",
-      internalStorage: "256 GB",
-      edition: "نسخة الشرق الأوسط (eSIM)",
-      colorName: "Black",
-      os: "iOS",
-      processorName: "أبل",
-      mainCameraFeature: "فردي",
-      audioJack: "نوع C",
-      voiceDialing: "Yes",
-      fastCharging: "Yes",
-      modelName: "iPhone Air",
-      secondaryCameraResolution: "18 MP",
-      secondaryCameraRange: "16 - 31.9 ميجابكسل",
-      batterySize: "3149 mAh",
-      screenSize: "6.5 in",
-      simType: "شريحة إلكترونية",
-      chargingType: "نوع C",
-      condition: "جديد",
-      coreCount: "سداسي النواة",
-      flash: "فلاش مزدوج",
-      networkType: "5G",
-      processorNumber: "Apple A19 Pro",
-      modelNumber: "MG184AH/A",
-      mainCamera: "12+12 MP",
-    },
-  },
-  {
-    name: "أبل آيفون 17 اير، 5G، 6.1 بوصة، أبيض، 256 جيجا",
-    originalPrice: 4120,
-    salePrice: 4500,
-    image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813226/5486b938-16c5-4d5f-963b-ce883e4a26b3_ig1wdz.avif",
-    images: [
-  "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813226/5486b938-16c5-4d5f-963b-ce883e4a26b3_ig1wdz.avif",
-  "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813258/fdad1df7-a447-4519-b9b9-c84b5bacec2e_rkgulg.avif",
-  "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813227/8acbeea5-7dbb-45b5-8a13-3cfb8bc0ce7e_tbnnbs.avif",
-  "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776813226/1f89628e-f7ed-47f2-bea0-3626bf502a7e_vibvij.avif"
-    ],
-    color: "أبيض",
-    storage: "256 GB",
-    network: "5G",
-    screenSize: "6.5 بوصة",
-    category: "ابل ايفون 17 اير",
-    subCategory: "الهواتف الذكية",
-    brand: "Apple",
-    inStock: true,
-    freeDelivery: true,
-    deliveryTime: "24 ساعة",
-    warrantyYears: 2,
-    taxIncluded: true,
-
-    overview: `آيفون إير هو أنحف آيفون على الإطلاق، مدعوم بشريحة A19 Pro. إنه أكثر متانة من أي آيفون سابق، مع إطار من التيتانيوم المصقول، وواجهة أمامية من سيراميك شيلد 2 مقاومة للخدوش بشكل أفضل بمعدل 3 مرات، وواجهة خلفية من سيراميك شيلد مقاومة للتصدع بمعدل 4 مرات. صور سيلفي جماعية أكثر ذكاءً وفيديو مزدوج الالتقاط مع الكاميرا الأمامية الجديدة Center Stage. الكاميرا الرئيسية Fusion بدقة 48 ميجابكسل مع عدسة تليفوتو 2x تدعم أحدث الميزات المتقدمة مثل الصور الشخصية من الجيل التالي والمزيد. شاشة Super Retina XDR بحجم 6.5 بوصة مع ProMotion تصل إلى 120 هرتز. عمر بطارية طوال اليوم. أدوات ذكاء آبل المفيدة مثل Clean Up والمزيد.`,
-overviewImage:"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777599688/ChatGPT_Image_May_1_2026_04_39_53_AM_iwhvjg.webp",
-    features: {
-      screenAndDesign: [
-        "شاشة Super Retina XDR",
-        "تقنية ProMotion",
-        "شاشة التشغيل الدائم",
-        "الجزيرة الديناميكية",
-        "إطار من التيتانيوم",
-        "زر الإجراءات",
-        "التحكم بالكاميرا",
-      ],
-      performance: [
-        "شريحة A19 Pro",
-        "وحدة معالجة رسومات 5 أنوية",
-        "مسرّعات عصبية",
-        "تتبع الأشعة المسرّع بالعتاد",
-      ],
-      battery: ["تشغيل فيديو حتى 27 ساعة"],
-      frontCamera: [
-        "كاميرا أمامية Center Stage بدقة 18 ميجابكسل",
-        "انقر للتكبير والتدوير",
-        "فيديو فائق الثبات",
-        "التقاط مزدوج",
-      ],
-      rearCamera: [
-        "كاميرا رئيسية Fusion بدقة 48 ميجابكسل",
-        "صور فائقة الدقة (24 و 48 ميجابكسل)",
-        "بورتريه الجيل التالي مع التحكم بالعمق",
-      ],
-      videoAndPhotography: [
-        "Dolby Vision 4K بمعدل 60 إطار/ثانية",
-        "أحدث أنماط التصوير الفوتوغرافي",
-      ],
-    },
-
-    detailedSpecs: {
-      memoryType: "بدون ذاكرة قابلة للزيادة",
-      simCount: "مزدوج الشريحة",
-      ram: "12 GB",
-      internalStorage: "256 GB",
-      edition: "نسخة الشرق الأوسط (eSIM)",
-      colorName: "White",
-      os: "iOS",
-      processorName: "أبل",
-      mainCameraFeature: "فردي",
-      audioJack: "نوع C",
-      voiceDialing: "Yes",
-      fastCharging: "Yes",
-      modelName: "iPhone Air",
-      secondaryCameraResolution: "18 MP",
-      secondaryCameraRange: "16 - 31.9 ميجابكسل",
-      batterySize: "3149 mAh",
-      screenSize: "6.5 in",
-      simType: "شريحة إلكترونية",
-      chargingType: "نوع C",
-      condition: "جديد",
-      coreCount: "سداسي النواة",
-      flash: "فلاش مزدوج",
-      networkType: "5G",
-      processorNumber: "Apple A19 Pro",
-      modelNumber: "MG184AH/A",
-      mainCamera: "12+12 MP",
-    },
-  },
-
-
+[
+  // اسود
 
 {
-  name: "أبل آيفون 17 اير، 5G، 6.1 بوصة، أزرق فاتح، 256 جيجا",
-  originalPrice: 4120,
-  salePrice: 4500,
-  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776812884/c264c254-2859-4115-90bb-7e1fe31c1063_1_qnm7md.avif",
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أسود، 256 جيجابايت",
+  originalPrice: 5500,
+  salePrice: 4999,
+
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_2_qp6pkc.jpg",
+
   images: [
-   "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776812884/c264c254-2859-4115-90bb-7e1fe31c1063_1_qnm7md.avif",
-   "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776812885/995bb610-d73e-4ff6-a980-4d2e2e159922_n5rwir.avif",
-   "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1776812885/305f6252-e2b3-4045-87db-a734bd313bfd_imzp04.avif"
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_2_qp6pkc.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/4_2_c6oj90.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844595/5_1_nzcf2v.jpg"
   ],
-  color: "أزرق فاتح",
-  storage: "256 GB",
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777845019/ChatGPT_Image_May_4_2026_12_49_58_AM_d9u0x7.webp",
+
+  color: "أسود",
+  storage: "256 جيجابايت",
   network: "5G",
-  screenSize: "6.5 بوصة",
-  category: "ابل ايفون 17 اير",
-  subCategory: "الهواتف الذكية",
-  brand: "Apple",
-  inStock: true,
-  freeDelivery: true,
-  deliveryTime: "24 ساعة",
-  warrantyYears: 2,
-  taxIncluded: true,
+  screenSize: "6.8 بوصة",
 
-  overview: `آيفون إير هو أنحف آيفون على الإطلاق، مدعوم بشريحة A19 Pro. إنه أكثر متانة من أي آيفون سابق، مع إطار من التيتانيوم المصقول، وواجهة أمامية من سيراميك شيلد 2 مقاومة للخدوش بشكل أفضل بمعدل 3 مرات، وواجهة خلفية من سيراميك شيلد مقاومة للتصدع بمعدل 4 مرات. صور سيلفي جماعية أكثر ذكاءً وفيديو مزدوج الالتقاط مع الكاميرا الأمامية الجديدة Center Stage. الكاميرا الرئيسية Fusion بدقة 48 ميجابكسل مع عدسة تليفوتو 2x تدعم أحدث الميزات المتقدمة مثل الصور الشخصية من الجيل التالي والمزيد. شاشة Super Retina XDR بحجم 6.5 بوصة مع ProMotion تصل إلى 120 هرتز. عمر بطارية طوال اليوم. أدوات ذكاء آبل المفيدة مثل Clean Up والمزيد.`,
-
-  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777599688/ChatGPT_Image_May_1_2026_04_36_34_AM_uzjomz.webp",
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz لعرض سلس وواضح.\nمزود بكاميرا رئيسية 200 ميجابكسل وتقنيات تصوير احترافية مدعومة بالذكاء الاصطناعي.\nبطارية ضخمة بسعة 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيحتوي على قلم S Pen المدمج لزيادة الإنتاجية.",
 
   features: {
     screenAndDesign: [
-      "شاشة Super Retina XDR",
-      "تقنية ProMotion",
-      "شاشة التشغيل الدائم",
-      "الجزيرة الديناميكية",
-      "إطار من التيتانيوم",
-      "زر الإجراءات",
-      "التحكم بالكاميرا",
+      "شاشة Dynamic AMOLED 2X",
+      "دقة عالية QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع قلم S Pen"
     ],
     performance: [
-      "شريحة A19 Pro",
-      "وحدة معالجة رسومات 5 أنوية",
-      "مسرّعات عصبية",
-      "تتبع الأشعة المسرّع بالعتاد",
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم تقنيات الذكاء الاصطناعي"
     ],
-    battery: ["تشغيل فيديو حتى 27 ساعة"],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "تشغيل طوال اليوم"
+    ],
     frontCamera: [
-      "كاميرا أمامية Center Stage بدقة 18 ميجابكسل",
-      "انقر للتكبير والتدوير",
-      "فيديو فائق الثبات",
-      "التقاط مزدوج",
+      "كاميرا أمامية عالية الجودة",
+      "تصوير سيلفي احترافي"
     ],
     rearCamera: [
-      "كاميرا رئيسية Fusion بدقة 48 ميجابكسل",
-      "صور فائقة الدقة (24 و 48 ميجابكسل)",
-      "بورتريه الجيل التالي مع التحكم بالعمق",
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير احترافي بالذكاء الاصطناعي"
     ],
     videoAndPhotography: [
-      "Dolby Vision 4K بمعدل 60 إطار/ثانية",
-      "أحدث أنماط التصوير الفوتوغرافي",
-    ],
+      "تصوير فيديو عالي الدقة",
+      "وضع بورتريه احترافي",
+      "تحسين الصور بالذكاء الاصطناعي"
+    ]
   },
 
   detailedSpecs: {
-    memoryType: "بدون ذاكرة قابلة للزيادة",
-    simCount: "مزدوج الشريحة",
-    ram: "12 GB",
-    internalStorage: "256 GB",
-    edition: "نسخة الشرق الأوسط (eSIM)",
-    colorName: "Light Blue",
-    os: "iOS",
-    processorName: "أبل",
-    mainCameraFeature: "فردي",
-    audioJack: "نوع C",
-    voiceDialing: "Yes",
-    fastCharging: "Yes",
-    modelName: "iPhone Air",
-    secondaryCameraResolution: "18 MP",
-    secondaryCameraRange: "16 - 31.9 ميجابكسل",
-    batterySize: "3149 mAh",
-    screenSize: "6.5 in",
-    simType: "شريحة إلكترونية",
-    chargingType: "نوع C",
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "256 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أسود",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
     condition: "جديد",
-    coreCount: "سداسي النواة",
-    flash: "فلاش مزدوج",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
     networkType: "5G",
-    processorNumber: "Apple A19 Pro",
-    modelNumber: "MG184AH/A",
-    mainCamera: "12+12 MP",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
   },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+}
+,
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أسود، 512 جيجابايت",
+  originalPrice: 6000,
+  salePrice: 5499,
+
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_2_qp6pkc.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_2_qp6pkc.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/4_2_c6oj90.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844595/5_1_nzcf2v.jpg"
+  ],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777845019/ChatGPT_Image_May_4_2026_12_49_58_AM_d9u0x7.webp",
+
+  color: "أسود",
+  storage: "512 جيجابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz لعرض سلس وواضح.\nمزود بكاميرا رئيسية 200 ميجابكسل وتقنيات تصوير احترافية مدعومة بالذكاء الاصطناعي.\nبطارية ضخمة بسعة 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيحتوي على قلم S Pen المدمج لزيادة الإنتاجية.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة عالية QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع قلم S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم تقنيات الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "تشغيل طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "تصوير سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير احترافي بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو عالي الدقة",
+      "وضع بورتريه احترافي",
+      "تحسين الصور بالذكاء الاصطناعي"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "512 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أسود",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+}
+,
+
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أسود، 1 تيرابايت",
+  originalPrice: 6500,
+  salePrice: 5999,
+
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_2_qp6pkc.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_2_qp6pkc.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/4_2_c6oj90.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844595/5_1_nzcf2v.jpg"
+  ],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777845019/ChatGPT_Image_May_4_2026_12_49_58_AM_d9u0x7.webp",
+
+  color: "أسود",
+  storage: "1 تيرابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz لعرض سلس وواضح.\nمزود بكاميرا رئيسية 200 ميجابكسل وتقنيات تصوير احترافية مدعومة بالذكاء الاصطناعي.\nبطارية ضخمة بسعة 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيحتوي على قلم S Pen المدمج لزيادة الإنتاجية.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة عالية QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع قلم S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم تقنيات الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "تشغيل طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "تصوير سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير احترافي بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو عالي الدقة",
+      "وضع بورتريه احترافي",
+      "تحسين الصور بالذكاء الاصطناعي"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "1 تيرابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أسود",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
 }
 
-
-]
-
+,
 
 
 
 
+  // ابيض
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أبيض، 256 جيجابايت",
+  originalPrice: 5500,
+  salePrice: 4999,
 
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/1_vgo0of.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/1_vgo0of.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/3_qtednb.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/4_za1wlx.jpg",
+  ],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844989/ChatGPT_Image_May_4_2026_12_49_19_AM_racwwo.webp",
+
+  color: "أبيض",
+  storage: "256 جيجابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz.\nكاميرا رئيسية 200 ميجابكسل مع تقنيات تصوير احترافية بالذكاء الاصطناعي.\nبطارية 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيدعم قلم S Pen لزيادة الإنتاجية والتحكم المتقدم.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "استخدام طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو احترافي",
+      "وضع بورتريه متقدم",
+      "تحسين تلقائي للصور"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "256 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أبيض",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+},
+
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أبيض، 512 جيجابايت",
+  originalPrice: 6000,
+  salePrice: 5499,
+
+  
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/1_vgo0of.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/1_vgo0of.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/3_qtednb.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/4_za1wlx.jpg",
+  ],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844989/ChatGPT_Image_May_4_2026_12_49_19_AM_racwwo.webp",
+
+  color: "أبيض",
+  storage: "512 جيجابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz.\nكاميرا رئيسية 200 ميجابكسل مع تقنيات تصوير احترافية بالذكاء الاصطناعي.\nبطارية 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيدعم قلم S Pen لزيادة الإنتاجية والتحكم المتقدم.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "استخدام طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو احترافي",
+      "وضع بورتريه متقدم",
+      "تحسين تلقائي للصور"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "512 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أبيض",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+},
+
+
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أبيض، 1 تيرابايت",
+  originalPrice: 6500,
+  salePrice: 5999,
+
+
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/1_vgo0of.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/1_vgo0of.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844597/3_qtednb.jpg",
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/4_za1wlx.jpg",
+  ],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844989/ChatGPT_Image_May_4_2026_12_49_19_AM_racwwo.webp",
+
+  color: "أبيض",
+  storage: "1 تيرابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz.\nكاميرا رئيسية 200 ميجابكسل مع تقنيات تصوير احترافية مدعومة بالذكاء الاصطناعي.\nبطارية 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيدعم قلم S Pen لزيادة الإنتاجية والتحكم المتقدم.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء فائق للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "استخدام طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو احترافي",
+      "وضع بورتريه متقدم",
+      "تحسين تلقائي للصور"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "1 تيرابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أبيض",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+},
+
+// ازرق
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أزرق سماوي، 256 جيجابايت",
+  originalPrice: 5500,
+  salePrice: 4999,
+
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/1_1_x8hg3m.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/1_1_x8hg3m.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_1_yeutjv.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/3_1_qtan3i.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_ikup0i.jpg"
+],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777845756/ChatGPT_Image_May_4_2026_01_00_46_AM_heuuhy.webp",
+
+  color: "أزرق سماوي",
+  storage: "256 جيجابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أداء قوي مع تصميم فاخر وتجربة استخدام متكاملة.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة عالية ومعدل تحديث 120Hz.\nكاميرا رئيسية 200 ميجابكسل مع تقنيات تصوير احترافية بالذكاء الاصطناعي.\nبطارية 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيدعم قلم S Pen لزيادة الإنتاجية والتحكم المتقدم.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "استخدام طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو احترافي",
+      "وضع بورتريه متقدم",
+      "تحسين تلقائي للصور"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "256 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أزرق سماوي",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+},{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أزرق سماوي، 512 جيجابايت",
+  originalPrice: 6000,
+  salePrice: 5499,
+
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/1_1_x8hg3m.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/1_1_x8hg3m.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_1_yeutjv.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/3_1_qtan3i.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_ikup0i.jpg"
+],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777845756/ChatGPT_Image_May_4_2026_01_00_46_AM_heuuhy.webp",
+
+  color: "أزرق سماوي",
+  storage: "512 جيجابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra من الفئة الرائدة يقدم أداء قوي وتجربة استخدام متكاملة مع تصميم فاخر.\nيأتي بشاشة Dynamic AMOLED 2X بدقة عالية ومعدل تحديث 120Hz.\nكاميرا رئيسية 200 ميجابكسل مدعومة بالذكاء الاصطناعي لتصوير احترافي.\nبطارية 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيدعم قلم S Pen لزيادة الإنتاجية والتحكم.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء قوي للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "دعم الذكاء الاصطناعي"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "استخدام طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو احترافي",
+      "وضع بورتريه متقدم",
+      "تحسين تلقائي للصور"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "512 جيجابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أزرق سماوي",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+},
+
+
+{
+  name: "سامسونج جالاكسي S26 ألترا، 5G، 6.8 بوصة، أزرق سماوي، 1 تيرابايت",
+  originalPrice: 6500,
+  salePrice: 5999,
+  image: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/1_1_x8hg3m.jpg",
+
+  images: [
+    "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/1_1_x8hg3m.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_1_yeutjv.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/3_1_qtan3i.jpg",
+"https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777844596/2_ikup0i.jpg"
+],
+
+  overviewImage: "https://res.cloudinary.com/dyqkhcuxe/image/upload/v1777845756/ChatGPT_Image_May_4_2026_01_00_46_AM_heuuhy.webp",
+
+  color: "أزرق سماوي",
+  storage: "1 تيرابايت",
+  network: "5G",
+  screenSize: "6.8 بوصة",
+
+  overview: "هاتف Galaxy S26 Ultra يقدم أقوى أداء مع تصميم فاخر وتجربة استخدام احترافية.\nيأتي بشاشة Dynamic AMOLED 2X كبيرة بدقة QHD+ ومعدل تحديث 120Hz.\nكاميرا رئيسية 200 ميجابكسل مدعومة بالذكاء الاصطناعي لتصوير احترافي.\nبطارية 5000 مللي أمبير تدعم الاستخدام طوال اليوم مع شحن سريع.\nيدعم قلم S Pen لزيادة الإنتاجية.",
+
+  features: {
+    screenAndDesign: [
+      "شاشة Dynamic AMOLED 2X",
+      "دقة QHD+",
+      "معدل تحديث 120Hz",
+      "تصميم فاخر مع S Pen"
+    ],
+    performance: [
+      "معالج Snapdragon 8 Elite Gen 5",
+      "أداء فائق للألعاب والتطبيقات الثقيلة",
+      "معالج رسومي Adreno 840",
+      "ذكاء اصطناعي مدمج"
+    ],
+    battery: [
+      "بطارية 5000 مللي أمبير",
+      "شحن سريع",
+      "استخدام طوال اليوم"
+    ],
+    frontCamera: [
+      "كاميرا أمامية عالية الجودة",
+      "سيلفي احترافي"
+    ],
+    rearCamera: [
+      "كاميرا رئيسية 200 ميجابكسل",
+      "تقريب بصري متقدم",
+      "تصوير احترافي بالذكاء الاصطناعي"
+    ],
+    videoAndPhotography: [
+      "تصوير فيديو احترافي",
+      "وضع بورتريه متقدم",
+      "تحسين تلقائي للصور"
+    ]
+  },
+
+  detailedSpecs: {
+    memoryType: "بدون ذاكرة خارجية",
+    simCount: "شريحتين",
+    ram: "12 جيجابايت",
+    internalStorage: "1 تيرابايت",
+    edition: "نسخة الشرق الأوسط",
+    colorName: "أزرق سماوي",
+    os: "Android 16",
+    processorName: "Snapdragon",
+    mainCameraFeature: "رباعية",
+    audioJack: "USB Type-C",
+    voiceDialing: "نعم",
+    fastCharging: "نعم",
+    modelName: "Galaxy S26 Ultra",
+    secondaryCameraResolution: "12 ميجابكسل",
+    batterySize: "5000 mAh",
+    screenSize: "6.8 بوصة",
+    simType: "Nano SIM",
+    chargingType: "Type-Type-C",
+    condition: "جديد",
+    coreCount: "ثماني النواة",
+    flash: "فلاش LED",
+    networkType: "5G",
+    processorNumber: "Snapdragon 8 Elite Gen 5",
+    modelNumber: "SM-S948B/DS",
+    mainCamera: "200 ميجابكسل"
+  },
+
+  freeDelivery: true,
+  deliveryTime: "خلال أسبوع",
+  warrantyYears: 1,
+  installment: { available: true, conditions: ["بدون فوائد حتى 12 شهر"] },
+  taxIncluded: true,
+
+  category: "سامسونج جالاكسي S26 الترا",
+  subCategory: "الهواتف الذكية",
+  brand: "سامسونج",
+
+  inStock: true
+}
+]]
