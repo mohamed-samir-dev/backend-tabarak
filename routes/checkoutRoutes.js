@@ -1,5 +1,6 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
+const rateLimit = require("express-rate-limit");
 const router = express.Router();
 const Checkout = require("../models/Checkout");
 
@@ -14,8 +15,28 @@ function authMiddleware(req, res, next) {
   }
 }
 
-router.post("/", async (req, res) => {
+const checkoutLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 3,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { ok: false, error: "عذراً، تم تقديم عدة طلبات متتالية. يرجى الانتظار قليلاً قبل المحاولة مرة أخرى" },
+  keyGenerator: (req) => req.ip || req.headers["x-forwarded-for"] || "unknown",
+});
+
+router.post("/", checkoutLimiter, async (req, res) => {
   try {
+    const { whatsapp, nationalId } = req.body;
+    if (whatsapp || nationalId) {
+      const since = new Date(Date.now() - 15 * 60 * 1000);
+      const filter = { createdAt: { $gte: since } };
+      if (whatsapp) filter.whatsapp = whatsapp;
+      else filter.nationalId = nationalId;
+      const recentCount = await Checkout.countDocuments(filter);
+      if (recentCount >= 3) {
+        return res.status(429).json({ ok: false, error: "عذراً، تم تقديم عدة طلبات من نفس الحساب. يرجى الانتظار قليلاً" });
+      }
+    }
     const checkout = new Checkout(req.body);
     await checkout.save();
     res.status(201).json({ ok: true, orderId: checkout.orderId, _id: checkout._id });
