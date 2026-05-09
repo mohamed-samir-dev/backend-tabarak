@@ -297,6 +297,23 @@ router.post("/banners/add", authMiddleware, async (req, res) => {
   }
 });
 
+// PATCH /api/admin/banners/reorder
+router.patch("/banners/reorder", authMiddleware, async (req, res) => {
+  try {
+    const { order } = req.body;
+    if (!Array.isArray(order)) return res.status(400).json({ error: "ترتيب غير صحيح" });
+    let doc = await Banner.findOne();
+    if (!doc) return res.status(404).json({ error: "لا يوجد" });
+    if (order.length !== doc.banners.length) return res.status(400).json({ error: "عدد غير متطابق" });
+    const reordered = order.map((i) => doc.banners[i]);
+    doc.banners = reordered;
+    await doc.save();
+    res.json(doc.banners);
+  } catch {
+    res.status(500).json({ error: "خطأ في الخادم" });
+  }
+});
+
 // DELETE /api/admin/banners/:index/image  (clear image only)
 router.delete("/banners/:index/image", authMiddleware, async (req, res) => {
   try {
